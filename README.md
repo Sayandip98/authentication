@@ -220,33 +220,6 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
-## 📤 Pushing to GitHub
-
-To push this project to your GitHub repository safely:
-
-```bash
-# 1. Initialize git (if not already done)
-git init
-
-# 2. Check status to ensure .env and node_modules are ignored
-git status
-
-# 3. Stage all files
-git add .
-
-# 4. Commit files
-git commit -m "Initial commit: Production-ready MERN Authentication System"
-
-# 5. Set default branch to main
-git branch -M main
-
-# 6. Link to your GitHub remote repository
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-
-# 7. Push to GitHub
-git push -u origin main
-```
-
 > [!IMPORTANT]
 > The `.gitignore` files are pre-configured to ensure your `.env` files and `node_modules/` are never committed to GitHub. Always keep your credentials safe!
 
